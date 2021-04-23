@@ -1,0 +1,69 @@
+body{
+    background-color:#8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;m
+    }
+p.categ{
+   background-color: black;
+   color: white;display: inline-block;margin-top: -20px;padding-top: 10px;padding-left: 5%;
+   padding-right: 5%; font-stretch: 100%;font-size: 30px;align: "center";
+     }
+
+div.first{
+    background-color:white;margin-left: auto;margin-right: auto;
+    padding-left: 1px;padding-right: 1px;margin-top: 50px;padding-bottom: 50px;min-width: 1000px; max-width: 850px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1) ;
+    
+      }
+
+div.description{
+    display: block;text-align: center;
+      }
+
+div.sepa {
+    width: 150px;height: 3px;background-color: black;display: block;margin-left: auto;margin-right: auto;
+     }
+
+table.tabl {
+    bottom: 0;position: absolute;margin-left: 50px;width: 850px;background-color:#8BA1BBC0;color: white;
+    min-height: 80px;min-width: 900px;
+    }
+
+img.tof {
+    margin-left: 50px;margin-right:100px;width: 900px;height: 500px;max-width: 1000px;display: block;
+    padding-right: 120px;object-fit: cover;min-width: 850px;
+      }
+
+ div.td{
+    text-align:"center";position :relative;max-width: 900px;width: 850px;
+      }
+
+h1.infor{text-align:center; color:red
+      }
+table.tabl td{
+    text-align: center;font-size: 16px;vertical-align: top;max-width: 800px;
+      }
+
+div.colonne1{display: inline-block;
+
+      }
+div.colonne2{float: right;
+      }
+
+div.colonne{width: 45%;margin-top: 20px;
+      }
+div.colonne h2{ text-align: center;border-bottom: 5px solid #8BA1BB;padding-bottom: 5px;margin-right: 10px;
+      margin-left: 10px;
+}
+
+div.uno p{border: 2px solid lightgray; text-align: center;margin-right: 10px;margin-left: 10px;
+font-size: 24px;}
+
+table.dos{font-size: 22px;
+      }
+
+p.tres{
+      background-color:#8BA1BBC0;color:white; ;font-size: 25px;height: 35px;
+      width: 35px;font-weight: bold;border-radius: 50%;box-sizing: border-box;text-align: center;
+      margin-right: 15px;margin-bottom: 10%;margin-top: 16%;
+}
+
