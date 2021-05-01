@@ -8,12 +8,12 @@ p.categ{
    padding-right: 5%; font-stretch: 100%;font-size: 30px;align: "center";
      }
 
-div.first{
-    background-color:white;margin-left: auto;margin-right: auto;
-    padding-left: 1px;padding-right: 1px;margin-top: 50px;padding-bottom: 50px;min-width: 1000px; max-width: 850px;
-    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1) ;
-    
-      }
+     div.first{
+      background-color:white;margin-left: auto;margin-right: auto;
+      padding-left: auto;padding-right: auto;margin-top: 50px;padding-bottom: 50px;width: 900px; 
+      box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1) ;min-width: 800px;
+}
+
 
 div.description{
     display: block;text-align: center;
@@ -24,23 +24,23 @@ div.sepa {
      }
 
 table.tabl {
-    bottom: 0;position: absolute;margin-left: 50px;width: 850px;background-color:#8BA1BBC0;color: white;
-    min-height: 80px;min-width: 900px;
+    bottom: 0;position: absolute;margin-left: 10px;width: 880px;background-color:#8BA1BBC0;color: white;
+    min-height: 80px;
     }
 
 img.tof {
-    margin-left: 50px;margin-right:100px;width: 900px;height: 500px;max-width: 1000px;display: block;
-    padding-right: 120px;object-fit: cover;min-width: 850px;
+    margin-left: 10px;margin-right:  100px;;width: 880px;height: 500px;max-width: 880px;display: block;
+    padding-right: 120px;object-fit: cover;
       }
 
  div.td{
-    text-align:"center";position :relative;max-width: 900px;width: 850px;
+    text-align:"center";position :relative;max-width: 900px;width: 880px;
       }
 
 h1.infor{text-align:center; color:red
       }
 table.tabl td{
-    text-align: center;font-size: 16px;vertical-align: top;max-width: 800px;
+    text-align: center;font-size: 16px;vertical-align: top;max-width: 750px;
       }
 
 div.colonne1{display: inline-block;
@@ -66,4 +66,8 @@ p.tres{
       width: 35px;font-weight: bold;border-radius: 50%;box-sizing: border-box;text-align: center;
       margin-right: 15px;margin-bottom: 10%;margin-top: 16%;
 }
-
+@media only screen and (min-width:768px){
+      div.first{
+            
+            min-width: min-content};
+}
